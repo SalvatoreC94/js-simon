@@ -2,12 +2,22 @@
 Reset
  */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
 }
 
-html {
-    font-family: Arial, Helvetica, sans-serif;
+#numbers-container {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#numbers-container span {
+    margin: 0 10px;
+}
+
+#timer-container {
+    font-size: 20px;
+    margin: 20px 0;
 }
